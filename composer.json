@@ -1,0 +1,13 @@
+{
+    "name": "grupo/taskmaster",
+    "description": "Sistema de controle de tarefas — CLI em PHP",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TaskMaster\\": "src/"
+        }
+    }
+}
